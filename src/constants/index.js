@@ -30,7 +30,17 @@ import {
   ccc,
   lga,
   v10,
-  rasid
+  rasid,
+  v11,
+  v12,
+  v13,
+  v14,
+  v15,
+  v16,
+  v17,
+  v18,
+  v19,
+  ven1
 
 } from "../assets";
 
@@ -246,7 +256,7 @@ const projects = [
       },
     ],
     image: lga,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Aymal1996",
   },
   {
     name: "Rasid",
@@ -275,12 +285,12 @@ const projects = [
       },
     ],
     image: rasid,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Aymal1996",
   },
   {
     name: "V10",
     description:
-      "nnovative web platform, Project V10, empowers students to explore and manage diverse educational journeys. From bachelor's to PhD programs, with transparent fees, accommodation options, and ELC support.",
+      "Innovative  web platform, Project V10, empowers students to explore and manage diverse educational journeys. From bachelor's to PhD programs, with transparent fees, accommodation options, and ELC support.",
     tags: [
       {
         name: "HTML",
@@ -304,7 +314,276 @@ const projects = [
       },
     ],
     image: v10,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Aymal1996",
+  },
+  {
+    name: "V10",
+    description:
+      "Innovative  web platform, Project V10, empowers students to explore and manage diverse educational journeys. From bachelor's to PhD programs, with transparent fees, accommodation options, and ELC support.",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Swiper JS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "jQuery",
+        color: "green-text-gradient",
+      },
+    ],
+    image: v11,
+    source_code_link: "https://github.com/Aymal1996",
+  },
+  {
+    name: "V10",
+    description:
+      "Innovative  web platform, Project V10, empowers students to explore and manage diverse educational journeys. From bachelor's to PhD programs, with transparent fees, accommodation options, and ELC support.",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Swiper JS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "jQuery",
+        color: "green-text-gradient",
+      },
+    ],
+    image: v12,
+    source_code_link: "https://github.com/Aymal1996",
+  },
+  {
+    name: "V10",
+    description:
+      "Innovative  web platform, Project V10, empowers students to explore and manage diverse educational journeys. From bachelor's to PhD programs, with transparent fees, accommodation options, and ELC support.",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Swiper JS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "jQuery",
+        color: "green-text-gradient",
+      },
+    ],
+    image: v13,
+    source_code_link: "https://github.com/Aymal1996",
+  },
+  {
+    name: "V10",
+    description:
+      "Innovative  web platform, Project V10, empowers students to explore and manage diverse educational journeys. From bachelor's to PhD programs, with transparent fees, accommodation options, and ELC support.",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Swiper JS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "jQuery",
+        color: "green-text-gradient",
+      },
+    ],
+    image: v14,
+    source_code_link: "https://github.com/Aymal1996",
+  },
+  {
+    name: "V10",
+    description:
+      "Innovative  web platform, Project V10, empowers students to explore and manage diverse educational journeys. From bachelor's to PhD programs, with transparent fees, accommodation options, and ELC support.",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Swiper JS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "jQuery",
+        color: "green-text-gradient",
+      },
+    ],
+    image: v15,
+    source_code_link: "https://github.com/Aymal1996",
+  },
+  {
+    name: "V10",
+    description:
+      "Innovative  web platform, Project V10, empowers students to explore and manage diverse educational journeys. From bachelor's to PhD programs, with transparent fees, accommodation options, and ELC support.",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Swiper JS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "jQuery",
+        color: "green-text-gradient",
+      },
+    ],
+    image: v16,
+    source_code_link: "https://github.com/Aymal1996",
+  },
+  {
+    name: "V17",
+    description:
+      "Innovative  web platform, Project V10, empowers students to explore and manage diverse educational journeys. From bachelor's to PhD programs, with transparent fees, accommodation options, and ELC support.",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Swiper JS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "jQuery",
+        color: "green-text-gradient",
+      },
+    ],
+    image: v18,
+    source_code_link: "https://github.com/Aymal1996",
+  },
+  {
+    name: "V10",
+    description:
+      "Innovative  web platform, Project V10, empowers students to explore and manage diverse educational journeys. From bachelor's to PhD programs, with transparent fees, accommodation options, and ELC support.",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Swiper JS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "jQuery",
+        color: "green-text-gradient",
+      },
+    ],
+    image: v19,
+    source_code_link: "https://github.com/Aymal1996",
+  },
+  {
+    name: "VentureHaven",
+    description:
+      "Streamline Singapore company registration with ventureHaven's seamless process. Our WordPress-based platform, powered by custom HTML, CSS, and PHP, ensures a swift and hassle-free experience for users.",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "WordPress",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Swiper JS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "jQuery",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Php",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Elementor",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: ven1,
+    source_code_link: "https://github.com/Aymal1996",
   },
 ];
 

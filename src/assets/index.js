@@ -37,6 +37,16 @@ import tripguide from "./tripguide.png";
 import lga from "./lga.png";
 import rasid from "./rasid.png";
 import v10 from "./v10.png";
+import v11 from "./v11.png";
+import v12 from "./v12.png";
+import v13 from "./v13.png";
+import v14 from "./v14.png";
+import v15 from "./v15.png";
+import v16 from "./v16.png";
+import v17 from "./v17.png";
+import v18 from "./v18.png";
+import v19 from "./v19.png";
+import ven1 from "./ven1.png";
 
 export {
   logo,
@@ -74,5 +84,15 @@ export {
   Salgo,
   lga,
   v10,
-  rasid
+  rasid,
+  v11,
+  v12,
+  v13,
+  v14,
+  v15,
+  v16,
+  v17,
+  v18,
+  v19,
+  ven1
 };

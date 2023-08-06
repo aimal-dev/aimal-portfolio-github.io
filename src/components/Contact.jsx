@@ -6,6 +6,8 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Contact = () => {
   const formRef = useRef();
@@ -30,13 +32,10 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
-    // BJIL0Oobn95axZKSs
-// template_hggwp8q
-    // service_j6yetol
     emailjs
       .send(
         'service_vud238g',
-       ' template_r33fq5t',        
+       'template_p68wlml',        
         {
           from_name: form.name,
           to_name: "Muhammad Aimal",
@@ -49,7 +48,17 @@ const Contact = () => {
       .then(
         () => {
           setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
+          // toast("Thank you. I will get back to you as soon as possible.");
+          toast.success('Thank you. I will get back to you as soon as possible.', {
+            position: "top-center",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "dark",
+          });
 
           setForm({
             name: "",
@@ -60,8 +69,16 @@ const Contact = () => {
         (error) => {
           setLoading(false);
           console.error(error);
-
-          alert("Ahh, something went wrong. Please try again.");
+          toast.error('Ahh, something went wrong. Please try again.', {
+            position: "top-center",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "dark",
+          });
         }
       );
   };
@@ -122,7 +139,9 @@ const Contact = () => {
           >
             {loading ? "Sending..." : "Send"}
           </button>
+          
         </form>
+        
       </motion.div>
 
       <motion.div
@@ -131,6 +150,18 @@ const Contact = () => {
       >
         <EarthCanvas />
       </motion.div>
+      <ToastContainer
+        position="top-center"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="dark"
+      />
     </div>
   );
 };
