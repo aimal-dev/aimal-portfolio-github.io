@@ -28,6 +28,8 @@ import tesla from "./company/tesla.png";
 import venture from "./company/venture.png";
 import bizz from "./company/bizz.png";
 import Salgo from "./company/Salgo.png";
+import BoltOS from "./company/BoltOS.jpeg";
+import ET from "./company/ET.png";
 import level from "./company/level.png";
 import ccc from "./company/ccc.png";
 
@@ -82,6 +84,8 @@ export {
   level,
   bizz,
   Salgo,
+  BoltOS,
+  ET,
   lga,
   v10,
   rasid,

@@ -128,3 +128,7 @@
 .object-cover {
     object-position: top;
 }
+
+.canva canvas{
+margin-top: 50px;
+}
